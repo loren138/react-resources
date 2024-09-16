@@ -1,0 +1,73 @@
+body {
+  background-color: #95c2d7;
+  font-family: Arial, sans-serif;
+}
+
+.header-component h1 {
+  background: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  width: 100%;
+}
+
+.post-list {
+  padding: 0 10px;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-component {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 0 20px 0;
+  list-style: none;
+  border: none;
+}
+
+.post-component p {
+  margin: 0;
+  padding: 4px 10px;
+  background: rgb(96, 125, 139);
+  color: rgb(202, 238, 255);
+  font-size: 1.3em;
+}
+
+.post-component img {
+  width: 100%;
+  display: block;
+}
+
+.post-component button {
+  border: none;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+.app-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.selected-item {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.selected-item p {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+}
+
+.post-component .post-name {
+  font-weight: bold;
+  font-size: 2em;
+}
